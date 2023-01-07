@@ -1,0 +1,20 @@
+{
+  "name": "instachatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chatBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chatBot.js",
+    "dev": "nodemon chatBot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@androz2091/insta.js": "^1.6.1",
+    "dotenv": "^16.0.3",
+    "instagram-private-api": "^1.45.3",
+    "openai": "^3.1.0"
+  }
+}
