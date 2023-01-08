@@ -18,6 +18,7 @@ client.on("connected", () => {
 
 function start() {
   console.log(`Started`);
+  console.log(process.env);
 
   client.on("messageCreate", async (message) => {
     if (message.author.id === client.user.id) return;
